@@ -16,6 +16,25 @@ body {
   overflow-x: clip;
 }
 
+/* Keeps the generated avatar feeling native to the dark, editorial hero. */
+.avatar-wrap::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 22%;
+  right: 22%;
+  bottom: 7%;
+  height: 28%;
+  border-radius: 999px;
+  background: #bbccd7;
+  opacity: 0.14;
+  filter: blur(55px);
+}
+
+.avatar-image {
+  filter: drop-shadow(0 24px 22px rgba(0, 0, 0, 0.32));
+}
+
 .hero-heading {
   background: linear-gradient(180deg, #646973 0%, #BBCCD7 100%);
   -webkit-background-clip: text;

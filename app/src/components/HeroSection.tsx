@@ -35,10 +35,10 @@ export const HeroSection: React.FC = () => {
         </FadeIn>
       </div>
 
-      {/* Hero Portrait */}
-      <FadeIn delay={0.6} y={30} className="absolute left-1/2 -translate-x-1/2 z-10 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0 pointer-events-auto">
+      {/* Hero Portrait — a custom 3D avatar based on the supplied portrait */}
+      <FadeIn delay={0.6} y={30} className="avatar-wrap absolute left-1/2 -translate-x-1/2 z-10 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0 pointer-events-auto">
         <Magnet padding={150} strength={3} activeTransition="transform 0.3s ease-out" inactiveTransition="transform 0.6s ease-in-out">
-          <img src="/portrait.jpg" alt="Kartikeya Solanki" className="w-full h-auto object-cover pointer-events-none" />
+          <img src="/avatar-3d.png" alt="3D avatar of Kartikeya Solanki" className="avatar-image w-full h-auto object-contain pointer-events-none" />
         </Magnet>
       </FadeIn>
     </section>
