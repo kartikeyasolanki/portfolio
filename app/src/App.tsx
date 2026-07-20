@@ -2,7 +2,7 @@ import { HeroSection } from './components/HeroSection';
 import { MarqueeSection } from './components/MarqueeSection';
 import { AboutSection } from './components/AboutSection';
 import { SkillsSection } from './components/SkillsSection';
-import { ExperienceSection } from './components/ExperienceSection';
+import { EducationSection } from './components/EducationSection';
 import { ContactSection } from './components/ContactSection';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <MarqueeSection />
       <AboutSection />
       <SkillsSection />
-      <ExperienceSection />
+      <EducationSection />
       <ContactSection />
     </main>
   );
