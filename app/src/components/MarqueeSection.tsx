@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 
 const techStack = [
-  "Python", "NumPy", "Pandas", "PyTorch", "TensorFlow", "SQL", "Git", "Linux", "LaTeX", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter", "VS Code", "Docker", "REST APIs", "FastAPI", "Numba", "Polars", "DuckDB"
+  "Python", "NumPy", "Pandas", "PyTorch", "TensorFlow", "SQL", "Git", "Linux", "LaTeX", "Matplotlib", "Scikit-learn", "Jupyter", "VS Code", "Docker", "REST APIs", "FastAPI", "Numba", "Polars", "DuckDB"
 ];
 
 const achievements = [
